@@ -28,12 +28,13 @@
   align-items:center;
   overflow: hidden;
   padding: 30px;
+  white-space: nowrap;
 }
 
 .image{
   width: 200px;
   height: 200px;
-  background:url("PicsArt_06-21-01.09.24.png");
+  background:url("images/PicsArt_06-21-01.09.24.png");
   background-size: cover;
   background-position: 0 0;
   border-radius: 50%;
@@ -64,6 +65,7 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 
+
 }
 
 
@@ -78,6 +80,7 @@ i{
 a{
   text-decoration: none;
   color: #000;
+
  
  
 }
@@ -117,3 +120,85 @@ background: #000;
 }
 
 
+
+@media only screen and (max-width: 720px) {
+
+
+  .box{
+    margin: auto;
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    overflow: hidden;
+    padding: auto;
+  }
+
+  .image{
+    width: 150px;
+    height: 150px;
+  }
+
+  h2{
+    
+    font-size:20px !important;
+
+  }
+
+  h4{
+    font-size:12px !important;
+  }
+
+
+  .btn{
+    width: 250px;
+  }
+
+  .sociallink{
+    width: 250px;
+  }
+
+}
+
+@media only screen and (max-width: 550px) {
+
+
+  .box{
+    margin: auto;
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    overflow: hidden;
+    padding: auto;
+  }
+
+  .image{
+    width: 100px;
+    height: 100px;
+  }
+
+  h2{
+    
+    font-size:16px !important;
+
+  }
+
+  h4{
+    font-size:8px !important;
+  }
+
+
+  .btn{
+    width: 200px;
+  }
+
+  .sociallink{
+    width: 200px;
+  }
+
+}
